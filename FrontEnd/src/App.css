@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+      background-image: url('../src/assets/images/body.png');
+      /* background-size: cover; */
+      /* background-position: center; */
+      /* background-repeat: no-repeat; */
+      height: 100vh;
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+  }
+
+
+  /* Navbar.css */
+
+  .navbar-nav .nav-link {
+    color: #ffffff !important; /* White text color for menu items */
+  }
+  .olo{
+    color: #ffffff;
+  }
+
+/* HeroSection.css */
+
+.hero-section {
+  width: 100%;
+  height: 600px; /* Adjust height as per your design */
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease; /* Smooth transition for sliding effect */
+}
+
+
+
+
+.step-circle {
+  width: 30px;
+  height: 30px;
+  color: #dee2e6;
+  border-radius: 50%;
+  background-color: #191C23; /* default circle background */
+  border: 1px solid #dee2e6; /* default border color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.step-circle.active {
+  background-color: #09B169; /* active circle background color */
+  color: #fff; /* active circle text color */
+  border-color: #09B169; /* active border color */
+}
+
+.step-line {
+  height: 1px;
+  border-top: 1px dotted #dee2e6; /* change border style and color */
+  margin-top: 15px; /* adjust margin to align with circles */
+  position: absolute;
+  width: 300px; /* line spans the entire width */
+  top: 4%; /* position at the center of the circles */
+  z-index: -1; /* move line behind circles */
+}
+
+
+
+
+.form-control{
+  padding-right: 454px !important;
+  background-color: #30333a !important;
+  color: white !important;
+  ::placeholder {
+    color: rgb(245, 25, 25) !important; /* Placeholder text color */
+}
+}
+
+.form-label{
+  color: white;
+}
