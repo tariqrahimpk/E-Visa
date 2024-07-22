@@ -9,6 +9,7 @@ import Sigin from './pages/Sigin';
 import Registration from './pages/Registration';
 import ForgotPassword from './pages/ForgotPassword';
 import CheckStatus from './pages/CheckStatus';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/checkstatus' element={<CheckStatus/>}/>
           
         </Routes>
+        <Footer/>
       </Router>
     </>
   )

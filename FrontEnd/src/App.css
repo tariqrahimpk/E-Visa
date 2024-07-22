@@ -74,7 +74,7 @@ body {
 
 
 .form-control{
-  padding-right: 454px !important;
+  /* padding-right: 454px !important; */
   background-color: #30333a !important;
   color: white !important;
   ::placeholder {
@@ -84,4 +84,44 @@ body {
 
 .form-label{
   color: white;
+}
+
+.contact-us-container {
+  background-image: url('./assets/images/sarer.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  
+  /* padding: 20px; */
+
+  width: 100%;
+  max-width: 600px;
+}
+
+
+.link-custom {
+  color: white;
+  font-size: 20px;
+  font-weight:500;
+  text-decoration: none;
+}
+
+.link-custom:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.form-control::placeholder {
+  color: rgb(189, 180, 180) !important;
+  opacity: 1; /* Override the default opacity */
+}
+
+.react-datepicker__input-container{
+  width: 270% !important;
 }

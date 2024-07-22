@@ -110,7 +110,7 @@ const VisaForm = ({ step, isSubmitting, formData, setFormData}) => {
                                 dateFormat="dd/MM/yyyy"
                                 placeholderText="Select Date of Birth"
                                 className="form-control"
-                                style={{ backgroundColor: "black", color: "white", paddingRight: "313px" }}
+                                style={{ backgroundColor: "black", color: "white" }}
                                 required
                             />
                         </div>
