@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
           <p>You can check if you are eligible for e-Visa by going Home Page Get information Do I need visa? and selecting your country/region of travel document. Each traveler must obtain a separate e-Visa, including infants and children (even if children/infants are included in their parents’ passports).</p>
           </div>
         </div>
+        <Link to="/form" type="submit" className="btn w-50 bg-success text-white" >Apply For A Visa</Link>
       </div>
     </div>
   );
