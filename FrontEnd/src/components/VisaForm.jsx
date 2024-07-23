@@ -330,37 +330,37 @@ const VisaForm = ({ step, isSubmitting, formData, setFormData}) => {
 
                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0 100px" }}>
 
-                                <h5 className='display-6'>Full name:</h5>  <h5 className='display-6'> {formData.firstName} {formData.lastName}</h5>
+                                <h5 className='nw'>Full name:</h5>  <h5 className='nw'> {formData.firstName} {formData.lastName}</h5>
 
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0 100px" }}>
 
-                                <h5 className='display-6'>Date of birth:</h5>  <h5 className='display-6'> {formData.dateOfBirth?.toLocaleDateString()}</h5>
+                                <h5 className='nw'>Date of birth:</h5>  <h5 className='nw'> {formData.dateOfBirth?.toLocaleDateString()}</h5>
 
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0 100px" }}>
 
-                                <h5 className='display-6'>Citizenship:</h5>  <h5 className='display-6'> {formData.country}</h5>
+                                <h5 className='nw'>Citizenship:</h5>  <h5 className='nw'> {formData.country}</h5>
 
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0 100px" }}>
 
-                                <h5 className='display-6'>Number of travel document (Passport):</h5>  <h5 className='display-6'>{formData.passportNumber}</h5>
+                                <h5 className='nw'>Number of travel document (Passport):</h5>  <h5 className='nw'>{formData.passportNumber}</h5>
 
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0 100px" }}>
 
-                                <h5 className='display-6'>Date of issue of travelling document (passport):</h5>  <h5 className='display-6'>{formData.passportIssueDate?.toLocaleDateString()}</h5>
+                                <h5 className='nw'>Date of issue of travelling document (passport):</h5>  <h5 className='nw'>{formData.passportIssueDate?.toLocaleDateString()}</h5>
 
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0 100px" }}>
 
-                                <h5 className='display-6'>Date of expiry of the travelling document (passport):</h5>  <h5 className='display-6'>{formData.passportExpiryDate?.toLocaleDateString()}</h5>
+                                <h5 className='nw'>Date of expiry of the travelling document (passport):</h5>  <h5 className='nw'>{formData.passportExpiryDate?.toLocaleDateString()}</h5>
 
                             </div>
                             <div style={{ display: "flex", justifyContent: "space-between", padding: "0 100px" }}>
 
-                                <h5 className='display-6'>Validity of Visa:</h5>  <h5 className='display-6'>{formData.planDateOfEntry?.toLocaleDateString()} - {formData.planDateOfExit?.toLocaleDateString()}</h5>
+                                <h5 className='nw'>Validity of Visa:</h5>  <h5 className='nw'>{formData.planDateOfEntry?.toLocaleDateString()} - {formData.planDateOfExit?.toLocaleDateString()}</h5>
 
                             </div>
                             {/*                            
